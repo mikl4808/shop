@@ -1,0 +1,11 @@
+cart_add:
+    path: /cart/add
+    controller: App\Controller\CartController::add
+
+cart_remove:
+    path: /cart/remove
+    controller: App\Controller\CartController::remove
+
+cart_view:
+    path: /cart/view
+    controller: App\Controller\CartController::view
