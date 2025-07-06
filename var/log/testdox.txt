@@ -1,3 +1,18 @@
+Item (MircoKl\Shop\Tests\Unit\Domain\Model\Item)
+ [x] Item creation with valid data
+ [x] Item creation with invalid quantity
+ [x] Item creation with negative price
+ [x] Get total price
+ [x] Get total price with zero quantity
+ [x] Get total price with zero price
+ [x] Get item name
+ [x] Get quantity
+ [x] Get price
+ [x] Set quantity
+ [x] Set quantity throws exception on invalid input
+ [x] Set quantity throws exception on zero
+ [x] Set quantity to one
+
 Order Service (MircoKl\Shop\Tests\Unit\Service\OrderService)
  [x] Calculate final price applies discount
 
