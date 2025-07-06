@@ -261,3 +261,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+/composer.lock
+/.phpunit.result.cache
+/public
