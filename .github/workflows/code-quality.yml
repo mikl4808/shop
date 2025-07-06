@@ -28,7 +28,7 @@ jobs:
         run: vendor/bin/phpstan analyse --error-format=table
 
       - name: Run PHPCS
-        run: vendor/bin/phpcs
+        run: vendor/bin/phpcs Classes Tests --standard=PSR12 --extensions=php --report=summary 
 
       - name: Run PHP-CS-Fixer (dry-run)
         run: vendor/bin/php-cs-fixer fix --dry-run --diff
