@@ -5,7 +5,7 @@ $finder = (new PhpCsFixer\Finder())
     ->in(__DIR__ . '/Tests')
 ;
 
-return (new PhpCsFixer\Config()->setUnsupportedPhpVersionAllowed(true))
+return (new PhpCsFixer\Config())
     ->setRules([
         '@PSR12' => true,
         'strict_param' => true,
