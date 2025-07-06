@@ -10,7 +10,7 @@ namespace MircoKl\Shop\Domain\Model;
 class ShoppingCart
 {
     /**
-     * @var array
+     * @var array<array{string, int, float}>
      */
     private array $items = [];
 
@@ -82,7 +82,7 @@ class ShoppingCart
 
     /**
      *
-     * @return array
+     * @return array<array{string, int, float}>
      */
     public function debugList(): array
     {

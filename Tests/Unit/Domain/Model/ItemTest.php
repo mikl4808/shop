@@ -133,6 +133,6 @@ class ItemTest extends TestCase
     {
         $item = new Item("Test Item", 1, 10.00);
         $item->setQuantity(1);
-        $this->assertSame(1, $item->getQuantity()); 
+        $this->assertSame(1, $item->getQuantity());
     }
 }

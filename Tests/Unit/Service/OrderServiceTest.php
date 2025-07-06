@@ -16,17 +16,13 @@ class OrderServiceTest extends TestCase
     /**
      * @covers OrderService::calculateFinalPrice
      */
-    public function test_calculate_final_price_applies_discount(): void
+    public function testCalculateFinalPriceAppliesDiscount(): void
     {
-        /**
-         * @var ShoppingCart $mockCart
-         */
+        /** @var ShoppingCart&\PHPUnit\Framework\MockObject\MockObject $mockCart */
         $mockCart = $this->createMock(ShoppingCart::class);
         $mockCart->method('getTotal')->willReturn(100.0);
 
-        /**
-         * @var OrderService $service
-         */
+        /** @var OrderService&\PHPUnit\Framework\MockObject\MockObject $serviceMock */
         $serviceMock = new OrderService($mockCart);
         $finalPrice = $serviceMock->calculateFinalPrice(0.1); // 10% discount
 
