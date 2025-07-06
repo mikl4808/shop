@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2025-07-06T18:33:08" pdepend="@package_version@" ahh="0" andc="0" calls="2" ccn="28" ccn2="28" cloc="105" clsa="0" clsc="3" eloc="129" fanout="3" leafs="3" lloc="73" loc="267" maxDIT="0" ncloc="162" noc="3" nof="0" noi="0" nom="16" nop="2" roots="0">
+  <files>
+    <file name="/Users/mircoklein/Development/studium/Softwaretechnik/shop/shop/Classes/Domain/Model/Item.php" loc="143" cloc="65" eloc="63" lloc="36" ncloc="78"/>
+    <file name="/Users/mircoklein/Development/studium/Softwaretechnik/shop/shop/Classes/Domain/Model/ShoppingCart.php" loc="92" cloc="32" eloc="49" lloc="28" ncloc="60"/>
+    <file name="/Users/mircoklein/Development/studium/Softwaretechnik/shop/shop/Classes/Service/OrderService.php" loc="32" cloc="8" eloc="17" lloc="9" ncloc="24"/>
+  </files>
+  <package name="MircoKl\Shop\Domain\Model" noc="2" noi="0" nom="14" nof="0" cr="0.15" rcr="0.15">
+    <class name="Item" fqname="MircoKl\Shop\Domain\Model\Item" start="10" end="142" loc="133" cloc="62" eloc="44" lloc="21" ncloc="71" dit="0" noam="0" nocc="0" noom="0" nom="9" cr="0.15" rcr="0.15" ca="0" cbo="1" ce="1" impl="0" cis="9" csz="13" npm="9" vars="4" varsi="4" varsnp="0" wmc="14" wmci="14" wmcnp="14">
+      <file name="/Users/mircoklein/Development/studium/Softwaretechnik/shop/shop/Classes/Domain/Model/Item.php"/>
+      <method name="__construct" start="39" end="50" ccn="3" ccn2="3" loc="12" cloc="0" eloc="11" lloc="7" ncloc="12" npath="4" hnt="36" hnd="20" hv="155.58941141595" hd="11" hl="0.090909090909091" he="1711.4835255754" ht="95.082418087522" hb="0.047693650037668" hi="14.144491946904" mi="61.531315597528"/>
+      <method name="getTotalPrice" start="57" end="60" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+      <method name="getItemName" start="67" end="70" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="getQuantity" start="77" end="80" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="getPrice" start="87" end="90" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setQuantity" start="98" end="104" ccn="2" ccn2="2" loc="7" cloc="0" eloc="6" lloc="3" ncloc="7" npath="2" hnt="17" hnd="14" hv="64.725033674979" hd="9.9" hl="0.1010101010101" he="640.77783338229" ht="35.598768521239" hb="0.024775194067126" hi="6.5378821893918" mi="70.075278806869"/>
+      <method name="setPrice" start="111" end="117" ccn="2" ccn2="2" loc="7" cloc="0" eloc="6" lloc="3" ncloc="7" npath="2" hnt="17" hnd="14" hv="64.725033674979" hd="9.9" hl="0.1010101010101" he="640.77783338229" ht="35.598768521239" hb="0.024775194067126" hi="6.5378821893918" mi="70.075278806869"/>
+      <method name="getCart" start="124" end="127" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setCart" start="135" end="141" ccn="2" ccn2="2" loc="7" cloc="0" eloc="6" lloc="3" ncloc="7" npath="2" hnt="17" hnd="14" hv="64.725033674979" hd="9.9" hl="0.1010101010101" he="640.77783338229" ht="35.598768521239" hb="0.024775194067126" hi="6.5378821893918" mi="70.075278806869"/>
+    </class>
+    <class name="ShoppingCart" fqname="MircoKl\Shop\Domain\Model\ShoppingCart" start="10" end="91" loc="82" cloc="29" eloc="37" lloc="20" ncloc="53" dit="0" noam="0" nocc="0" noom="0" nom="5" cr="0.15" rcr="0.15" ca="1" cbo="1" ce="1" impl="0" cis="5" csz="6" npm="5" vars="1" varsi="1" varsnp="0" wmc="12" wmci="12" wmcnp="12">
+      <file name="/Users/mircoklein/Development/studium/Softwaretechnik/shop/shop/Classes/Domain/Model/ShoppingCart.php"/>
+      <method name="getTotal" start="21" end="28" ccn="2" ccn2="2" loc="8" cloc="0" eloc="7" lloc="4" ncloc="8" npath="2" hnt="24" hnd="16" hv="96" hd="11.666666666667" hl="0.085714285714286" he="1120" ht="62.222222222222" hb="0.035949326663678" hi="8.2285714285714" mi="67.416166660626"/>
+      <method name="addItem" start="37" end="48" ccn="3" ccn2="3" loc="12" cloc="0" eloc="9" lloc="5" ncloc="12" npath="4" hnt="34" hnd="20" hv="146.94555522617" hd="16.5" hl="0.060606060606061" he="2424.6016612318" ht="134.70009229066" hb="0.060159702168822" hi="8.9057912258285" mi="63.606221456273"/>
+      <method name="getQuantity" start="55" end="64" ccn="3" ccn2="3" loc="10" cloc="0" eloc="9" lloc="5" ncloc="10" npath="3" hnt="27" hnd="17" hv="110.36149671376" hd="14.666666666667" hl="0.068181818181818" he="1618.6352851351" ht="89.924182507507" hb="0.045952740245815" hi="7.5246475032109" mi="64.476843876069"/>
+      <method name="removeItem" start="72" end="81" ccn="3" ccn2="3" loc="10" cloc="0" eloc="9" lloc="5" ncloc="10" npath="3" hnt="32" hnd="23" hv="144.75398259382" hd="15.555555555556" hl="0.064285714285714" he="2251.7286181262" ht="125.09603434034" hb="0.057265023542508" hi="9.3056131667459" mi="63.651916124466"/>
+      <method name="debugList" start="87" end="90" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+    </class>
+  </package>
+  <package name="MircoKl\Shop\Service" noc="1" noi="0" nom="2" nof="0" cr="0.15" rcr="0.15">
+    <class name="OrderService" fqname="MircoKl\Shop\Service\OrderService" start="12" end="31" loc="20" cloc="5" eloc="7" lloc="3" ncloc="15" dit="0" noam="0" nocc="0" noom="0" nom="2" cr="0.15" rcr="0.15" ca="0" cbo="1" ce="1" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/Users/mircoklein/Development/studium/Softwaretechnik/shop/shop/Classes/Service/OrderService.php"/>
+      <method name="__construct" start="16" end="19" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="calculateFinalPrice" start="26" end="30" ccn="1" ccn2="1" loc="5" cloc="0" eloc="4" lloc="2" ncloc="5" npath="1" hnt="15" hnd="12" hv="53.774437510817" hd="10" hl="0.1" he="537.74437510817" ht="29.87468750601" hb="0.022042592036043" hi="5.3774437510817" mi="74.614667036025"/>
+    </class>
+  </package>
+</metrics>

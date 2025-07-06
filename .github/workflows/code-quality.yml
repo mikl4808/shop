@@ -14,27 +14,41 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup PHP
+      - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.3'
-          extensions: mbstring, intl, xdebug
           tools: composer
+          extensions: mbstring, intl
 
       - name: Install dependencies
-        run: composer install --prefer-dist --no-progress --no-suggest
+        run: composer install --prefer-dist --no-interaction --no-suggest
+
+      - name: Run PHPUnit (with coverage)
+        run: vendor/bin/phpunit --coverage-clover=coverage.xml
 
       - name: Run PHPStan
         run: vendor/bin/phpstan analyse --error-format=table
 
       - name: Run PHPCS
-        run: vendor/bin/phpcs Classes Tests --standard=PSR12 --extensions=php --report=summary 
+        run: vendor/bin/phpcs Classes Tests --standard=PSR12
 
       - name: Run PHP-CS-Fixer (dry-run)
         run: vendor/bin/php-cs-fixer fix --dry-run --diff
 
-      - name: Upload metrics reports
+      - name: Run PDepend
+        run: |
+          mkdir -p build
+          vendor/bin/pdepend \
+            --summary-xml=build/summary.xml \
+            --jdepend-chart=build/jdepend.svg \
+            --overview-pyramid=build/pyramid.svg \
+            Classes/
+
+      - name: Upload code quality reports
         uses: actions/upload-artifact@v4
         with:
-          name: code-metrics
+          name: code-quality-reports
           path: |
+            coverage.xml
+            build/
