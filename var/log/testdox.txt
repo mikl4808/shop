@@ -1,0 +1,13 @@
+Order Service (MircoKl\Shop\Tests\Unit\Service\OrderService)
+ [x] Calculate final price applies discount
+
+Shopping Cart (MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCart)
+ [x] Cart has no items
+ [x] Add item and raise total
+ [x] Add multiple items
+ [x] Add item throws exception on invalid input
+ [x] Add item throws exception on negative price
+ [x] Get quantity
+ [x] Remove item
+ [x] Remve item throws excpetion
+

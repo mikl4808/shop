@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/Users/mircoklein/Development/studium/Softwaretechnik/cart/phpunit.xml" tests="9" assertions="9" errors="0" failures="0" skipped="0" time="0.037537">
+    <testsuite name="Unit Tests" tests="9" assertions="9" errors="0" failures="0" skipped="0" time="0.037537">
+      <testsuite name="MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCartTest" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Domain/Model/ShoppingCartTest.php" tests="8" assertions="8" errors="0" failures="0" skipped="0" time="0.035085">
+        <testcase name="testCartHasNoItems" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Domain/Model/ShoppingCartTest.php" line="17" class="MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCartTest" classname="MircoKl.Shop.Tests.Unit.Domain.Model.ShoppingCartTest" assertions="1" time="0.028185"/>
+        <testcase name="testAddItemAndRaiseTotal" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Domain/Model/ShoppingCartTest.php" line="27" class="MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCartTest" classname="MircoKl.Shop.Tests.Unit.Domain.Model.ShoppingCartTest" assertions="1" time="0.001101"/>
+        <testcase name="testAddMultipleItems" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Domain/Model/ShoppingCartTest.php" line="38" class="MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCartTest" classname="MircoKl.Shop.Tests.Unit.Domain.Model.ShoppingCartTest" assertions="1" time="0.001032"/>
+        <testcase name="testAddItemThrowsExceptionOnInvalidInput" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Domain/Model/ShoppingCartTest.php" line="49" class="MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCartTest" classname="MircoKl.Shop.Tests.Unit.Domain.Model.ShoppingCartTest" assertions="1" time="0.001000"/>
+        <testcase name="testAddItemThrowsExceptionOnNegativePrice" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Domain/Model/ShoppingCartTest.php" line="59" class="MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCartTest" classname="MircoKl.Shop.Tests.Unit.Domain.Model.ShoppingCartTest" assertions="1" time="0.000961"/>
+        <testcase name="testGetQuantity" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Domain/Model/ShoppingCartTest.php" line="70" class="MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCartTest" classname="MircoKl.Shop.Tests.Unit.Domain.Model.ShoppingCartTest" assertions="1" time="0.000928"/>
+        <testcase name="testRemoveItem" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Domain/Model/ShoppingCartTest.php" line="83" class="MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCartTest" classname="MircoKl.Shop.Tests.Unit.Domain.Model.ShoppingCartTest" assertions="1" time="0.000924"/>
+        <testcase name="testRemveItemThrowsExcpetion" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Domain/Model/ShoppingCartTest.php" line="94" class="MircoKl\Shop\Tests\Unit\Domain\Model\ShoppingCartTest" classname="MircoKl.Shop.Tests.Unit.Domain.Model.ShoppingCartTest" assertions="1" time="0.000954"/>
+      </testsuite>
+      <testsuite name="MircoKl\Shop\Tests\Unit\Service\OrderServiceTest" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Service/OrderServiceTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.002452">
+        <testcase name="test_calculate_final_price_applies_discount" file="/Users/mircoklein/Development/studium/Softwaretechnik/cart/Tests/Unit/Service/OrderServiceTest.php" line="18" class="MircoKl\Shop\Tests\Unit\Service\OrderServiceTest" classname="MircoKl.Shop.Tests.Unit.Service.OrderServiceTest" assertions="1" time="0.002452"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
