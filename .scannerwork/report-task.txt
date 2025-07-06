@@ -2,5 +2,5 @@ projectKey=cart
 serverUrl=http://localhost:9000
 serverVersion=25.6.0.109173
 dashboardUrl=http://localhost:9000/dashboard?id=cart
-ceTaskId=637b16e3-36ec-4efd-be68-1b3dc7ec5ecc
-ceTaskUrl=http://localhost:9000/api/ce/task?id=637b16e3-36ec-4efd-be68-1b3dc7ec5ecc
+ceTaskId=79a08e01-b499-41c9-a465-a81eea0673f2
+ceTaskUrl=http://localhost:9000/api/ce/task?id=79a08e01-b499-41c9-a465-a81eea0673f2
