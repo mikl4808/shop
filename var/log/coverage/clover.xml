@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1751820758">
-  <project timestamp="1751820758" name="Clover Coverage">
+<coverage generated="1751820834">
+  <project timestamp="1751820834" name="Clover Coverage">
     <package name="MircoKl\Shop\Domain\Model">
       <file name="/Users/mircoklein/Development/studium/Softwaretechnik/shop/shop/Classes/Domain/Model/ShoppingCart.php">
         <class name="MircoKl\Shop\Domain\Model\ShoppingCart" namespace="MircoKl\Shop\Domain\Model">
